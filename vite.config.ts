@@ -17,5 +17,9 @@ export default defineConfig({
 				precompress: true
 			})
 		})
-	]
+	],
+	// ماژول‌های native نباید داخل باندل Vite بروند
+	ssr: {
+		external: ['better-sqlite3', 'knex']
+	}
 });

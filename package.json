@@ -11,17 +11,25 @@
 		"start:express": "node server.js",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"db:migrate": "node --import dotenv/config ./node_modules/knex/bin/cli.js migrate:latest --knexfile knexfile.js",
+		"db:migrate:up": "node --import dotenv/config ./node_modules/knex/bin/cli.js migrate:up --knexfile knexfile.js",
+		"db:migrate:down": "node --import dotenv/config ./node_modules/knex/bin/cli.js migrate:down --knexfile knexfile.js",
+		"db:rollback": "node --import dotenv/config ./node_modules/knex/bin/cli.js migrate:rollback --knexfile knexfile.js",
+		"db:status": "node --import dotenv/config ./node_modules/knex/bin/cli.js migrate:status --knexfile knexfile.js",
+		"db:make": "node --import dotenv/config ./node_modules/knex/bin/cli.js migrate:make --knexfile knexfile.js -x js"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "^6.0.0",
 		"@sveltejs/kit": "^3.0.0",
 		"@sveltejs/vite-plugin-svelte": "^7.2.0",
+		"@types/better-sqlite3": "^9.6.0",
 		"@types/bootstrap": "^5.2.11",
 		"@types/express": "^5.0.6",
 		"sass": "^1.105.1",
 		"svelte": "^5.57.1",
 		"svelte-check": "^4.6.0",
+		"tsx": "^4.23.15",
 		"typescript": "^6.0.3",
 		"vite": "^8.3.0"
 	},
@@ -31,8 +39,11 @@
 	},
 	"dependencies": {
 		"@popperjs/core": "^2.11.8",
+		"better-sqlite3": "^13.0.3",
 		"bootstrap": "^5.3.8",
 		"bootstrap-icons": "^1.13.2",
-		"express": "^5.3.0"
+		"dotenv": "^18.0.7",
+		"express": "^5.3.0",
+		"knex": "^3.3.0"
 	}
 }

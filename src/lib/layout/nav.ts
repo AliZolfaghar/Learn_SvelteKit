@@ -11,6 +11,7 @@ export type NavItem = {
 export const NAV_ITEMS: NavItem[] = [
 	{ href: '/', label: 'داشبورد', icon: 'bi-house-door' },
 	{ href: '/users', label: 'کاربران', icon: 'bi-people' },
+	{ href: '/notes', label: 'یادداشت‌ها', icon: 'bi-journal-text' },
 	{
 		href: '/settings',
 		label: 'تنظیمات',

@@ -3,7 +3,10 @@
 declare global {
 	namespace App {
 		// interface Error {}
-		// interface Locals {}
+		interface Locals {
+			/** زمان شروع پردازش درخواست در handle (epoch ms) */
+			requestStartedAt?: number;
+		}
 		interface PageData {
 			title?: string;
 		}
