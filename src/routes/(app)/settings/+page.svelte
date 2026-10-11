@@ -5,7 +5,7 @@
 		</p>
 		<div class="list-group list-group-flush">
 			<a class="list-group-item list-group-item-action" href="/demo/counter">شمارنده آموزشی</a>
-			<a class="list-group-item list-group-item-action" href="/demo/blank">صفحه خالی</a>
+			<a class="list-group-item list-group-item-action" href="/demo/blank">صفحه خالی</a>			
 		</div>
 	</div>
 </div>
