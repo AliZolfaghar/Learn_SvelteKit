@@ -1,0 +1,59 @@
+/**
+ * IRAN Sans 4.0 (FaNum) — اعداد فارسی به‌صورت پیش‌فرض
+ * local copy from IRANSans4/Farsi_numerals/webFonts
+ * Commercial/Proprietary — see FontLicense.txt
+ */
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src:
+		url('/fonts/IRANSans4/FaNum/woff2/IRANSansWeb_FaNum_Bold.woff2') format('woff2'),
+		url('/fonts/IRANSans4/FaNum/woff/IRANSansWeb_FaNum_Bold.woff') format('woff'),
+		url('/fonts/IRANSans4/FaNum/ttf/IRANSansWeb_FaNum_Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src:
+		url('/fonts/IRANSans4/FaNum/woff2/IRANSansWeb_FaNum_Medium.woff2') format('woff2'),
+		url('/fonts/IRANSans4/FaNum/woff/IRANSansWeb_FaNum_Medium.woff') format('woff'),
+		url('/fonts/IRANSans4/FaNum/ttf/IRANSansWeb_FaNum_Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src:
+		url('/fonts/IRANSans4/FaNum/woff2/IRANSansWeb_FaNum_Light.woff2') format('woff2'),
+		url('/fonts/IRANSans4/FaNum/woff/IRANSansWeb_FaNum_Light.woff') format('woff'),
+		url('/fonts/IRANSans4/FaNum/ttf/IRANSansWeb_FaNum_Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src:
+		url('/fonts/IRANSans4/FaNum/woff2/IRANSansWeb_FaNum_UltraLight.woff2') format('woff2'),
+		url('/fonts/IRANSans4/FaNum/woff/IRANSansWeb_FaNum_UltraLight.woff') format('woff'),
+		url('/fonts/IRANSans4/FaNum/ttf/IRANSansWeb_FaNum_UltraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src:
+		url('/fonts/IRANSans4/FaNum/woff2/IRANSansWeb_FaNum.woff2') format('woff2'),
+		url('/fonts/IRANSans4/FaNum/woff/IRANSansWeb_FaNum.woff') format('woff'),
+		url('/fonts/IRANSans4/FaNum/ttf/IRANSansWeb_FaNum.ttf') format('truetype');
+}

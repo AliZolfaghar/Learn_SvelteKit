@@ -1,1 +1,2 @@
-// place files you want to import through the `#lib` alias in this folder.
+export { NAV_ITEMS, titleForPath } from './layout/nav';
+export type { NavItem, NavChild } from './layout/nav';
